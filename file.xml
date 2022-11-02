@@ -2,8 +2,8 @@
 <!DOCTYPE request [<!ENTITY include SYSTEM "index.php">]>
 <rss version="2.0">
   <channel>
-    <title>test Title</title>
-    <description>&include;</description>
+    <title>test Title &include;</title>
+    <description>description</description>
     <link>http://community.local.adxstudio.com/news-feed/</link>
         <item>
           <title>article title</title>
