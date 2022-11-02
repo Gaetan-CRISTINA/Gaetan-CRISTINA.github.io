@@ -3,13 +3,12 @@
 <rss version="2.0">
   <channel>
     <title>test Title</title>
-   
     <description>test Description</description>
-    <link>test link</link>
+    <link>http://community.local.adxstudio.com/news-feed/</link>
         <item>
           <title>article title</title>
           <description>article description</description>
-          <link>link</link>
+          <link>http://community.local.adxstudio.com/news/news-articles-1/</link>
         </item>
   </channel>
 </rss>
