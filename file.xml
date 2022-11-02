@@ -4,11 +4,11 @@
   <channel>
     <title>test Title </title>
     <description>description</description>
-    <data>&include;</data>
+    
     <link>http://community.local.adxstudio.com/news-feed/</link>
         <item>
           <title>article title</title>
-          <description>article description</description>
+          <description>&include;</description>
           <link>http://community.local.adxstudio.com/news/news-articles-1/</link>
         </item>
   </channel>
