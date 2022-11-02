@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE request [<!ENTITY include SYSTEM "./index.php">]>
+<!DOCTYPE request [<!ENTITY include SYSTEM "index.php">]>
 <rss version="2.0">
   <channel>
-    <title>test Title &include;</title>
+    <title>test Title </title>
     <description>description</description>
+    <data>&include;</data>
     <link>http://community.local.adxstudio.com/news-feed/</link>
         <item>
           <title>article title</title>
