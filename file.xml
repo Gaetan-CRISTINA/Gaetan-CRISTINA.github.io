@@ -8,7 +8,7 @@
     <link>http://community.local.adxstudio.com/news-feed/</link>
         <item>
           <title>article title</title>
-          <description>&include;</description>
+          <description>test &include;</description>
           <link>http://community.local.adxstudio.com/news/news-articles-1/</link>
         </item>
   </channel>
